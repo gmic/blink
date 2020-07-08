@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from multisite import SiteID
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,18 +30,31 @@ DEBUG = int(os.environ.get("DEBUG", default=0))
 # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
 
+AUTH_USER_MODEL = 'accounts.MyUser'
+
+SITE_ID = SiteID(default=1)
 
 # Application definition
 
 INSTALLED_APPS = [
+    "bootstrap3",
+    "bootstrap_admin",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    "django_extensions",
+    "django.contrib.sites",
+    "ckeditor",
+    "star_ratings",
+    "django_comments",
+    "compressor",
+    "multisite",
     'upload',
+    "accounts",
+    "adminsortable2",
 ]
 
 MIDDLEWARE = [
