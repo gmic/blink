@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class StarRatingsConfig(AppConfig):
-    name = 'star_ratings'
+    name = "star_ratings"

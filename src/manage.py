@@ -3,9 +3,13 @@
 import os
 import sys
 
+from blink.setup import setup_env
+
+setup_env()
+
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blink.settings')
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "blink.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -17,5 +21,5 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

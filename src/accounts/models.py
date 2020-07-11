@@ -8,8 +8,9 @@ class MyUser(AbstractUser):
 
     Username and password are required. Other fields are optional.
     """
+
     class Meta(AbstractUser.Meta):
-        swappable = 'AUTH_USER_MODEL'
+        swappable = "AUTH_USER_MODEL"
 
 
 MyUser._meta.get_field("email")._unique = True

@@ -1,0 +1,12 @@
+python-dotenv
+bootstrap-admin
+Django
+django-admin-sortable2
+django-bootstrap3
+django-ckeditor
+django-compressor
+django-contrib-comments
+django-extensions
+django-multisite
+gunicorn
+psycopg2-binary
