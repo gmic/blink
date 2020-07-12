@@ -3,7 +3,7 @@ from django.contrib.auth.admin import UserAdmin
 from accounts.models import MyUser
 
 
-admin.site.site_header = "Citizenline admin"
+admin.site.site_header = "Blink admin"
 
 
 class MyUserAdmin(UserAdmin):

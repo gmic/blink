@@ -7,6 +7,7 @@ django-ckeditor
 django-compressor
 django-contrib-comments
 django-extensions
+django-model-utils
 django-multisite
 gunicorn
 psycopg2-binary

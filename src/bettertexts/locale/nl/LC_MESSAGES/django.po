@@ -1,0 +1,489 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-14 19:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bettertexts/admin.py:65
+msgid "Export comments"
+msgstr "Exporteer opmerkingen"
+
+#: bettertexts/admin.py:76
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2081
+msgid "Text"
+msgstr "Tekst"
+
+#: bettertexts/admin.py:76
+msgid "Version"
+msgstr "Versie"
+
+#: bettertexts/admin.py:76 bettertexts/models.py:298
+msgid "Question"
+msgstr "Vraag"
+
+#: bettertexts/admin.py:76 bettertexts/admin.py:146 star_ratings/admin.py:24
+msgid "Score"
+msgstr "Score"
+
+#: bettertexts/admin.py:76
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/object_history.html:30
+msgid "User"
+msgstr "Gebruiker"
+
+#: bettertexts/admin.py:76
+msgid "IP"
+msgstr "IP"
+
+#: bettertexts/admin.py:93
+msgid "Export ratings"
+msgstr "Exporteer beoordelingen"
+
+#: bettertexts/admin.py:126
+msgid "Headers"
+msgstr "Kopteksten"
+
+#: bettertexts/admin.py:130
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: bettertexts/admin.py:172
+msgid "Content"
+msgstr "Inhoud"
+
+#: bettertexts/admin.py:174
+msgid "Metadata"
+msgstr "Meta gegevens"
+
+#: bettertexts/apps.py:8
+msgid "Better texts"
+msgstr "Betere teksten"
+
+#: bettertexts/forms.py:11
+msgid "Name"
+msgstr "Naam"
+
+#: bettertexts/forms.py:13 blink/templates/home.html:22
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1646
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: bettertexts/forms.py:15
+msgid "Comment"
+msgstr "Opmerking"
+
+#: bettertexts/forms.py:20
+msgid "Keep me informed"
+msgstr "Houd me op de hoogte over nieuwe versies van bovenstaande tekst"
+
+#: bettertexts/forms.py:24
+msgid "Keep me involved"
+msgstr "Ik doe graag mee met het verbeteren van nog meer teksten"
+
+#: bettertexts/models.py:35
+msgid "user"
+msgstr "gebruiker"
+
+#: bettertexts/models.py:41
+msgid "user's name"
+msgstr "gebruikersnaam"
+
+#: bettertexts/models.py:44
+msgid "user's email address"
+msgstr "E-mailadres van gebruiker"
+
+#: bettertexts/models.py:46
+msgid "user's URL"
+msgstr "gebruikers URL"
+
+#: bettertexts/models.py:48
+msgid "Keep informed"
+msgstr "Blijf op de hoogte"
+
+#: bettertexts/models.py:50
+msgid "Check this box to keep me informed about updates."
+msgstr "Kruis dit vakje aan om me op de hoogte gehouden te worden."
+
+#: bettertexts/models.py:53
+msgid "Stay involved"
+msgstr "Blijf betrokken"
+
+#: bettertexts/models.py:55
+msgid "Check this box to make more texts better."
+msgstr "Kruis dit vakje aan om meer teksten te verbeteren."
+
+#: bettertexts/models.py:58 bettertexts/models.py:90
+msgid "comment"
+msgstr "opmerking"
+
+#: bettertexts/models.py:61
+msgid "date/time submitted"
+msgstr "datum verstuurd"
+
+#: bettertexts/models.py:63
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1897
+msgid "IP address"
+msgstr "IP adres"
+
+#: bettertexts/models.py:66
+msgid "is public"
+msgstr "Publiek"
+
+#: bettertexts/models.py:69
+msgid ""
+"Uncheck this box to make the comment effectively disappear from the site."
+msgstr ""
+
+#: bettertexts/models.py:74
+msgid "is removed"
+msgstr "Verwijderd"
+
+#: bettertexts/models.py:77
+msgid ""
+"Check this box if the comment is inappropriate. A \"This comment has been "
+"removed\" message will be displayed instead."
+msgstr ""
+"Vink dit vakje aan als de reactie ongewenst is. \"Deze reactie is verwijderd"
+"\" zal worden getoond."
+
+#: bettertexts/models.py:91
+msgid "comments"
+msgstr "Opmerkingen"
+
+#: bettertexts/models.py:138
+msgid ""
+"This comment was posted by an authenticated user and thus the name is read-"
+"only."
+msgstr ""
+
+#: bettertexts/models.py:155
+msgid ""
+"This comment was posted by an authenticated user and thus the email is read-"
+"only."
+msgstr ""
+
+#: bettertexts/models.py:191
+#, python-format
+msgid ""
+"Posted by %(user)s at %(date)s\n"
+"\n"
+"%(comment)s\n"
+"\n"
+"http://%(domain)s%(url)s"
+msgstr ""
+
+#: bettertexts/models.py:206
+msgid "name"
+msgstr "naam"
+
+#: bettertexts/models.py:207
+msgid "main header"
+msgstr "hoofd header"
+
+#: bettertexts/models.py:208
+msgid "rating header"
+msgstr "beoordeling header"
+
+#: bettertexts/models.py:209
+msgid "comment header"
+msgstr "opmerking plaatsen header"
+
+#: bettertexts/models.py:210
+msgid "response header"
+msgstr "reacties header"
+
+#: bettertexts/models.py:211
+msgid "rating enabled"
+msgstr "waardering tonen"
+
+#: bettertexts/models.py:212
+msgid "comment enabled"
+msgstr "opmerking plaatsen tonen"
+
+#: bettertexts/models.py:213
+msgid "notification enabled"
+msgstr "notificatie vraag tonen"
+
+#: bettertexts/models.py:216
+msgid "communication type"
+msgstr "communicatie soort"
+
+#: bettertexts/models.py:217
+msgid "communication types"
+msgstr "communicatie soorten"
+
+#: bettertexts/models.py:227
+msgid "title"
+msgstr "titel"
+
+#: bettertexts/models.py:228
+msgid "slug"
+msgstr "kort"
+
+#: bettertexts/models.py:229
+msgid "intro"
+msgstr ""
+
+#: bettertexts/models.py:230 bettertexts/models.py:237
+msgid "text"
+msgstr "tekst"
+
+#: bettertexts/models.py:231 bettertexts/models.py:296
+msgid "version"
+msgstr "versie"
+
+#: bettertexts/models.py:232
+msgid "date published"
+msgstr "Publicatie datum"
+
+#: bettertexts/models.py:233
+msgid "date end"
+msgstr "eind datum"
+
+#: bettertexts/models.py:238
+msgid "texts"
+msgstr "teksten"
+
+#: bettertexts/models.py:253 bettertexts/models.py:257
+msgid "question"
+msgstr "vraag"
+
+#: bettertexts/models.py:254
+msgid "position"
+msgstr "positie"
+
+#: bettertexts/models.py:258
+msgid "questions"
+msgstr "vragen"
+
+#: bettertexts/models.py:279 star_ratings/models.py:42
+msgid "Already rated."
+msgstr "Al gewaardeerd"
+
+#: bettertexts/models.py:301
+msgid "range"
+msgstr "bereik"
+
+#: bettertexts/models.py:302
+msgid "count"
+msgstr "aantal"
+
+#: bettertexts/models.py:303
+msgid "total"
+msgstr "totaal"
+
+#: bettertexts/models.py:305
+msgid "average"
+msgstr "gemiddeld"
+
+#: bettertexts/models.py:312
+msgid "rating"
+msgstr "beoordeling"
+
+#: bettertexts/models.py:313
+msgid "ratings"
+msgstr "beoordelingen"
+
+#: bettertexts/templates/bettertexts/detail.html:92
+#: blink/templates/comments/form.html:18
+#: blink/templates/comments/preview.html:42
+msgid "Post"
+msgstr "Verstuur"
+
+#: blink/models.py:16
+#, fuzzy
+#| msgid "Headers"
+msgid "header"
+msgstr "Kopteksten"
+
+#: blink/models.py:17
+msgid "footer"
+msgstr ""
+
+#: blink/models.py:20
+msgid "site profile"
+msgstr ""
+
+#: blink/models.py:21
+msgid "site profiles"
+msgstr ""
+
+#: blink/templates/admin/base_site.html:9
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/base_site.html:4
+msgid "Django site admin"
+msgstr ""
+
+#: blink/templates/admin/base_site.html:14
+msgid "blink administration"
+msgstr "blink admin"
+
+#: blink/templates/admin/login.html:12
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/base.html:72
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/base.html:116
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/base.html:119
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/base_site.html:9
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/login.html:31
+#: venv/lib/python3.8/site-packages/bootstrap_admin/templates/admin/login.html:36
+msgid "Django administration"
+msgstr "Django admin"
+
+#: blink/templates/comments/approve.html:4
+msgid "Approve a comment"
+msgstr ""
+
+#: blink/templates/comments/approve.html:7
+msgid "Really make this comment public?"
+msgstr ""
+
+#: blink/templates/comments/approve.html:13
+msgid "Approve"
+msgstr ""
+
+#: blink/templates/comments/approved.html:4
+msgid "Thanks for approving"
+msgstr ""
+
+#: blink/templates/comments/approved.html:7
+#: blink/templates/comments/deleted.html:7
+#: blink/templates/comments/flagged.html:7
+msgid ""
+"Thanks for taking the time to improve the quality of discussion on our site"
+msgstr ""
+
+#: blink/templates/comments/delete.html:4
+msgid "Remove a comment"
+msgstr "Verwijder opmerking"
+
+#: blink/templates/comments/delete.html:7
+msgid "Really remove this comment?"
+msgstr ""
+
+#: blink/templates/comments/delete.html:13
+msgid "Remove"
+msgstr ""
+
+#: blink/templates/comments/deleted.html:4
+msgid "Thanks for removing"
+msgstr ""
+
+#: blink/templates/comments/flag.html:4
+msgid "Flag this comment"
+msgstr ""
+
+#: blink/templates/comments/flag.html:7
+msgid "Really flag this comment?"
+msgstr ""
+
+#: blink/templates/comments/flag.html:13
+msgid "Flag"
+msgstr ""
+
+#: blink/templates/comments/flagged.html:4
+msgid "Thanks for flagging"
+msgstr ""
+
+#: blink/templates/comments/form.html:19
+msgid "Preview"
+msgstr ""
+
+#: blink/templates/comments/list.html:9
+msgid "This comment has been removed"
+msgstr "Deze opmerking is verwijderd"
+
+#: blink/templates/comments/posted.html:4
+msgid "Thanks for commenting"
+msgstr "Bedankt voor het geven van opmerkingen"
+
+#: blink/templates/comments/posted.html:7
+msgid "Thank you for your comment"
+msgstr "Bedankt voor je opmerking"
+
+#: blink/templates/comments/preview.html:5
+#: blink/templates/comments/preview.html:18
+msgid "Preview your comment"
+msgstr "Voorbeeld van je opmerking"
+
+#: blink/templates/comments/preview.html:16
+msgid "Please correct the error below"
+msgid_plural "Please correct the errors below"
+msgstr[0] "Herstel de fout hier onder."
+msgstr[1] "Herstel de fouten hier onder."
+
+#: blink/templates/comments/preview.html:21
+#: venv/lib/python3.8/site-packages/django/db/models/base.py:1162
+#: venv/lib/python3.8/site-packages/django/forms/models.py:756
+msgid "and"
+msgstr "en"
+
+#: blink/templates/comments/preview.html:21
+msgid "Post your comment"
+msgstr "Plaats je opmerking"
+
+#: blink/templates/comments/preview.html:22
+msgid "or make changes"
+msgstr "of maak wijzigingen"
+
+#: blink/templates/home.html:16
+msgid "Send an activation link"
+msgstr "Stuur een activatie link"
+
+#: blink/templates/home.html:25
+msgid "Register"
+msgstr "Registreer"
+
+#: star_ratings/admin.py:50
+msgid "Rating average"
+msgstr "Gemiddelde beoordeling"
+
+#: star_ratings/templates/star_ratings/widget.html:18
+msgid "star"
+msgstr "ster"
+
+#: star_ratings/templates/star_ratings/widget.html:18
+msgid "stars"
+msgstr "sterren"
+
+#: star_ratings/templates/star_ratings/widget.html:24
+msgid "Submit"
+msgstr "Verstuur"
+
+#: star_ratings/templates/star_ratings/widget.html:28
+#: star_ratings/templates/star_ratings/widget.html:39
+#: star_ratings/templates/star_ratings/widget.html:47
+#: star_ratings/templates/star_ratings/widget_base.html:43
+#: star_ratings/templates/star_ratings/widget_base.html:88
+msgid "Average: "
+msgstr "Gemiddeld: "
+
+#: star_ratings/templates/star_ratings/widget.html:29
+#: star_ratings/templates/star_ratings/widget_base.html:49
+msgid "You Rated: "
+msgstr "Uw beoordeling: "
+
+#: star_ratings/templates/star_ratings/widget.html:29
+#: star_ratings/templates/star_ratings/widget_base.html:49
+msgid "Not rated"
+msgstr "Geen beoordeling"
+
+#: star_ratings/templates/star_ratings/widget.html:50
+#: star_ratings/templates/star_ratings/widget_base.html:46
+#: star_ratings/templates/star_ratings/widget_base.html:91
+msgid "Rating Count: "
+msgstr "Aantal beoordelingen: "
+
+#: star_ratings/templates/star_ratings/widget_base.html:51
+msgid "Please log in to rate."
+msgstr "Log in om een beoordeling te geven."

@@ -1,0 +1,19 @@
+{% extends "admin/base.html" %}
+{% load static bootstrap_admin_template_tags %}
+{% block extrastyle %}
+    <link rel="apple-touch-icon" href="{% static "apple-touch-icon-precomposed.png" %}">
+    <link rel="icon" href="{% static "favicon.ico" %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blink/css/admin.css' %}" />
+{% endblock %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+      {% block branding %}
+        <a href="{% url 'admin:index' %}" class="django-admin-logo">
+          <!-- Django Administration -->
+          <img height="100%" src="{% static 'blink/images/logo.svg' %}" alt="{{ site_header|default:_('Blink administration') }}">
+        </a>
+      {% endblock branding %}
+
+
+{% block nav-global %}{% endblock %}

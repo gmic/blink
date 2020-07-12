@@ -37,6 +37,9 @@ SITE_ID = SiteID(default=1)
 # Application definition
 
 INSTALLED_APPS = [
+    "blink",
+    "bettertexts",
+    "email_registration",
     "bootstrap3",
     "bootstrap_admin",
     "django.contrib.admin",
@@ -52,12 +55,14 @@ INSTALLED_APPS = [
     "django_comments",
     "compressor",
     "multisite",
-    "upload",
     "accounts",
     "adminsortable2",
 ]
 
 MIDDLEWARE = [
+    "blink.middleware.SetRemoteAddrFromForwardedFor",
+    "multisite.middleware.CookieDomainMiddleware",
+    "multisite.middleware.DynamicSiteMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -110,9 +115,9 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
     },
-    {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",},
-    {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",},
-    {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",},
+    {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
+    {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
+    {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
 ]
 
 
