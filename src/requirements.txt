@@ -16,8 +16,9 @@ django-compressor==2.4    # via -r requirements/common.txt
 django-contrib-comments==1.9.2  # via -r requirements/common.txt
 django-extensions==3.0.2  # via -r requirements/common.txt
 django-js-asset==1.2.2    # via -r requirements/common.txt, django-ckeditor
+django-model-utils==4.0.0  # via -r requirements/common.txt
 django-multisite==1.8.0   # via -r requirements/common.txt
-django==3.0.8             # via -r requirements/common.txt, django-admin-sortable2, django-appconf, django-bootstrap3, django-contrib-comments
+django==3.0.8             # via -r requirements/common.txt, django-admin-sortable2, django-appconf, django-bootstrap3, django-contrib-comments, django-model-utils
 gunicorn==20.0.4          # via -r requirements/common.txt
 idna==2.10                # via -r requirements/common.txt, requests, tldextract
 psycopg2-binary==2.8.5    # via -r requirements/common.txt
