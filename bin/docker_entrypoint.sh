@@ -13,5 +13,10 @@ fi
 
 python manage.py flush --no-input
 python manage.py migrate
+python manage.py collectstatic --no-input --clear
+if ["$DJANGO_SUPERUSER_PASSWORD" != ""]
+then
+  python manage.py createsuperuser --username=admin --email=admin@example.com --no-input
+fi
 
 exec "$@"
