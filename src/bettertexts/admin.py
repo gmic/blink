@@ -111,7 +111,7 @@ class TextAdmin(SiteModelAdmin):
 class QuestionInLine(SortableInlineAdminMixin, admin.TabularInline):
     model = Question
     extra = 0
-    fieldsets = ((None, {"fields": ("question", "position")}),)
+    fieldsets = ((None, {"fields": ("question", "position", "description", "rating_type")}),)
     ordering = ("position",)
     original = False
 
@@ -129,6 +129,10 @@ class TypeAdmin(SiteModelAdmin):
         (
             _("Enabled"),
             {"fields": ("rating_enabled", "comment_enabled", "notification_enabled")},
+        ),
+        (
+            _("Content"),
+            {"fields": ("comment_form_intro", "thanks", "inform_label", "involved_label")},
         ),
     )
 
@@ -203,4 +207,4 @@ admin.site.register(Rating, RatingAdmin)
 admin.site.register(UserRating, UserRatingAdmin)
 
 # Reset header  ?? Should this be done here or is this a sub-app ??
-# admin.site.site_header = 'Blink admin'
+# admin.site.site_header = 'Citizenline admin'

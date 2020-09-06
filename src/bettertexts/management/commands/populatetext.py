@@ -13,7 +13,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
-        User.objects.create_superuser("admin", "admin@example.com", "KjMbSa")
+        # User.objects.create_superuser("admin", "admin@example.com", "KjMbSa")
         # base_domain = "blink.local:8000"
         base_domain = "blink.nl"
 
