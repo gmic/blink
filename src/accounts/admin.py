@@ -1,12 +1,12 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from accounts.models import MyUser
+from accounts.models import BlinkUser
 
 
 admin.site.site_header = "Blink admin"
 
 
-class MyUserAdmin(UserAdmin):
+class BlinkUserAdmin(UserAdmin):
     add_fieldsets = (
         (
             None,
@@ -18,4 +18,4 @@ class MyUserAdmin(UserAdmin):
     )
 
 
-admin.site.register(MyUser, MyUserAdmin)
+admin.site.register(BlinkUser, BlinkUserAdmin)

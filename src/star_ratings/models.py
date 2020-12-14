@@ -24,7 +24,8 @@ class RatingManager(models.Manager):
 
     def ratings_for_instance(self, instance):
         warn(
-            "RatingManager method 'for_instance' has been renamed to 'ratings_for_instance'. Please change uses of 'Rating.objects.ratings_for_instance' to 'Rating.objects.for_instance' in your code.",
+            "RatingManager method 'for_instance' has been renamed to 'ratings_for_instance'. Please change uses of "
+            "'Rating.objects.ratings_for_instance' to 'Rating.objects.for_instance' in your code.",
             DeprecationWarning,
         )
         return self.for_instance(instance)

@@ -30,9 +30,9 @@ DEBUG = int(os.environ.get("DEBUG", default=0))
 # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
 
-AUTH_USER_MODEL = "accounts.MyUser"
+AUTH_USER_MODEL = "accounts.BlinkUser"
 
-SITE_ID = SiteID(default=1)
+SITE_ID = SiteID(default=2)
 
 # Application definition
 
@@ -124,9 +124,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "nl-nl"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Europe/Amsterdam"
 
 USE_I18N = True
 
@@ -134,12 +134,43 @@ USE_L10N = True
 
 USE_TZ = True
 
+LOCALE_PATHS = (BASE_DIR + "/bettertexts/locale",)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = "/staticfiles/"
 STATIC_ROOT = os.environ.get("BLINK_STATICFILES", os.path.join(BASE_DIR, "staticfiles"))
 
-MEDIA_URL = "/mediafiles/"
+STATIC_URL = "/static/"
+
+# Additional locations of static files.
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+
+# List of finder classes that know how to find static files in
+# various locations.
+STATICFILES_FINDERS = (
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    "compressor.finders.CompressorFinder",
+)
+
+
+# Media files.
+
 MEDIA_ROOT = os.environ.get("BLINK_MEDIAFILES", os.path.join(BASE_DIR, "mediafiles"))
+
+MEDIA_URL = "/media/"
+
+ADMINS = (("Admin", "admin@citizenline.nl"),)
+
+CKEDITOR_ALLOW_NONIMAGE_FILES = False
+CKEDITOR_CONFIGS = {"default": {"toolbar": "full", "height": "auto", "width": "auto"}}
+
+BOOTSTRAP_ADMIN_SIDEBAR_MENU = True
+
+# 3rd-party apps tracking IDs.
+GOOGLE_ANALYTICS_TRACKING_ID = os.getenv("GOOGLE_ANALYTICS_TRACKING_ID")
+STAR_RATINGS_RANGE = 10
+
+COMMENTS_APP = "bettertexts"
+COMMENTS_HIDE_REMOVED = False

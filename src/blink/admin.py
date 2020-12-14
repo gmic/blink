@@ -12,4 +12,5 @@ class SiteProfileModelAdmin(admin.ModelAdmin):
         obj.site = Site.objects.get_current()
         obj.save()
 
+
 admin.site.register(SiteProfile, SiteProfileModelAdmin)

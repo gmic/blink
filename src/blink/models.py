@@ -10,6 +10,7 @@ class SiteProfileManager(CurrentSiteManager):
     def get_query_set(self):
         return super(SiteProfileManager, self).get_query_set()
 
+
 class SiteProfile(models.Model):
     site = models.OneToOneField(Site, default=1, editable=False, on_delete=models.CASCADE, related_name="profile")
     objects = SiteProfileManager()

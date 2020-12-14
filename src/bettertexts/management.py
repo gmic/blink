@@ -48,7 +48,10 @@ def add_demo_content(s1):
     text.title = "Brief 1: Koolmonoxidevergiftiging"
     text.body = """<p><strong>Beste &lt;naam&gt;,</strong></p>
 
-    <p>De brandweer heeft uw adres aan ons doorgegeven omdat er bij u thuis een zeer ernstige situatie was geweest met koolmonoxide uit uw geiser/kachel/cv. U bent vast erg geschrokken. Koolmonoxide is gevaarlijk voor de gezondheid. De GGD bewaakt en beschermt de gezondheid, daarom nemen wij contact met u op.
+    <p>
+    De brandweer heeft uw adres aan ons doorgegeven omdat er bij u thuis een zeer ernstige situatie was geweest met
+    koolmonoxide uit uw geiser/kachel/cv. U bent vast erg geschrokken. Koolmonoxide is gevaarlijk voor de gezondheid.
+    De GGD bewaakt en beschermt de gezondheid, daarom nemen wij contact met u op.
     </p>
     <p><strong>Belangrijk:</strong>
     </p>
@@ -60,13 +63,23 @@ def add_demo_content(s1):
     </p>
     <p><strong>Het gevaar van koolmonoxide</strong>
     </p>
-    <p>De GGD geeft informatie over het gevaar van koolmonoxide. Wij kunnen uw vragen beantwoorden, uitleggen hoe koolmonoxide ontstaat en wanneer het tot klachten kan leiden. Daarnaast geven wij u tips om de kans op koolmonoxide(ongelukken) in de toekomst te verkleinen. Leest u daarom ook de folder die bij deze brief zit. Heeft u na het lezen van de folder nog vragen, dan kunt u mij bereiken op het telefoonnummer (012) 345 67 89 of e-mailen naar gezondheidenmilieu@example.nl.
+    <p>
+    De GGD geeft informatie over het gevaar van koolmonoxide. Wij kunnen uw vragen beantwoorden, uitleggen hoe
+    koolmonoxide ontstaat en wanneer het tot klachten kan leiden. Daarnaast geven wij u tips om de kans op
+    koolmonoxide(ongelukken) in de toekomst te verkleinen. Leest u daarom ook de folder die bij deze brief zit.
+    Heeft u na het lezen van de folder nog vragen, dan kunt u mij bereiken op het telefoonnummer (012) 345 67 89
+    of e-mailen naar gezondheidenmilieu@example.nl.
     </p>
-    <p>Koolmonoxide is een dodelijk gas. Als u nu nog gezondheidsklachten heeft neemt u dan contact op met uw huisarts. Vertel hem dat u koolmonoxide heeft ingeademd.
+    <p>
+    Koolmonoxide is een dodelijk gas. Als u nu nog gezondheidsklachten heeft neemt u dan contact op met uw huisarts.
+    Vertel hem dat u koolmonoxide heeft ingeademd.
     </p>
     <p><strong>Enquêteformulier</strong>
     </p>
-    <p>Bij deze brief zit ook een enquêteformulier. De GGD in uw regio wil graag weten hoeveel mensen gezondheids- klachten hebben door koolmonoxide(ongelukken). Daar is nog geen goed beeld van. Zou u de enquête willen invullen en terugsturen?
+    <p>
+    Bij deze brief zit ook een enquêteformulier. De GGD in uw regio wil graag weten hoeveel mensen gezondheids-
+    klachten hebben door koolmonoxide(ongelukken). Daar is nog geen goed beeld van. Zou u de enquête willen invullen
+    en terugsturen?
     </p>
     <p>Heeft u liever persoonlijk of telefonisch contact om de enquête in te vullen bel dan met (012) 345 67 89.
     </p>

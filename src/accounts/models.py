@@ -1,7 +1,7 @@
 from django.contrib.auth.models import AbstractUser
 
 
-class MyUser(AbstractUser):
+class BlinkUser(AbstractUser):
     """
     Users within the Django authentication system are represented by this
     model.
@@ -13,4 +13,4 @@ class MyUser(AbstractUser):
         swappable = "AUTH_USER_MODEL"
 
 
-MyUser._meta.get_field("email")._unique = True
+BlinkUser._meta.get_field("email")._unique = True
